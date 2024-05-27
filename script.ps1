@@ -6,10 +6,12 @@ function ytms {
     Write-Host "Input: $ytms_input"
 
     if ($ytms_input -match '^https?://(www\.)?youtube\.com/watch\?v=') {
-        $ytms_url_cmd = "yt-dlp --format ba --get-url $ytms_input"
-        $ytms_title_cmd = "yt-dlp --get-title $ytms_input"
-        $ytms_uploader_cmd = "yt-dlp --print '%(uploader)s' $ytms_input"
-    } else {
+        $ytms_url_cmd = "yt-dlp --format ba --get-url '$ytms_input'"
+        $ytms_title_cmd = "yt-dlp --get-title '$ytms_input'"
+        $ytms_uploader_cmd = "yt-dlp --print '%(uploader)s' '$ytms_input'"
+    } 
+    
+    else {
         $ytms_url_cmd = "yt-dlp --format ba --get-url --extractor-args youtube:player_client=android,web ytsearch1:$ytms_input"
         $ytms_title_cmd = "yt-dlp --get-title --extractor-args youtube:player_client=ios,web ytsearch1:$ytms_input"
         $ytms_uploader_cmd = "yt-dlp --print '%(uploader)s' --extractor-args youtube:player_client=ios,web ytsearch1:$ytms_input"
