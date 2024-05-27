@@ -13,7 +13,7 @@ If you already have [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [mpv](https:/
 
 Now you can install ytms by running the following command in powershell (note that powershell comes preinstalled on most modern versions of Windows. If you are not on Windows, or it didn't come preinstalled, you can download it [here](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4)).
 ```powershell
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/Atrament1s/ytms/master/script.ps1 | Select-Object -ExpandProperty Content | Add-Content -Path $profile
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/dragonx943/ytms/master/script.ps1 | Select-Object -ExpandProperty Content | Add-Content -Path $profile
 ```
 
 # Usage
