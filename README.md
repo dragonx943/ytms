@@ -40,10 +40,10 @@ ytms https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 # Các phím tắt
 Giống 100% phím tắt khi bạn sử dụng trình phát mpv, ví dụ:
-  "Space (phím cách) / P" - Tiếp tục / Tạm dừng
-  "M" - Mute / Tắt tiếng hoàn toàn
-  "Q" - Thoát ytms
-  "/" - Giảm âm lượng
-  "*" - Tăng âm lượng
-  "<-" - Tua ngược 5s
-  "->" - Tua nhanh 5s
+- "Space (phím cách) / P" - Tiếp tục / Tạm dừng
+- "M" - Mute / Tắt tiếng hoàn toàn
+- "Q" - Thoát ytms
+- "/" - Giảm âm lượng
+- "*" - Tăng âm lượng
+- "<-" - Tua ngược 5s
+- "->" - Tua nhanh 5s
